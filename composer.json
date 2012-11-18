@@ -1,0 +1,21 @@
+{
+    "name": "php-fb-boilerplate"
+  , "description": "A boilerplate facebook application"
+  , "version": "0.0.1"
+  , "authors": [{
+      "name": "Oskar Schöldström"
+  }]
+  , "autoload": {
+      "classmap": ["app/src"]
+  }
+  , "require": {
+      "slim/slim": "2.*"
+    , "slim/extras": "dev-master"
+    , "twig/twig": "1.*"
+    , "phpunit/phpunit": "3.7.*"
+    , "facebook/php-sdk": "dev-master"
+  }
+  , "config": {
+      "vendor-dir" : "app/vendor"
+  }
+}
